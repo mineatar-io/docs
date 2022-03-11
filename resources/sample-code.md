@@ -16,14 +16,19 @@ description: Sample code for how to implement in your website.
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function PlayerBody({ username }) {
+export default function PlayerBody({ username, scale }) {
     return (
-        <img src={`https://api.mineatar.io/body/${username}?scale=4`} alt={`${username}'s Body`} />
+        <img src={`https://api.mineatar.io/body/${username}?scale=${scale}`} alt={`${username}'s Body`} />
     );
 }
 
 PlayerBody.propTypes = {
-    username: PropTypes.string.isRequired
+    username: PropTypes.string.isRequired,
+    scale: PropTypes.number
+};
+
+PlayerBody.defaultProps = {
+    scale: 4
 };
 ```
 
