@@ -97,7 +97,7 @@ if len(value) < 1:
     raise Exception("'textures' property was not found in response")
 ```
 
-All players lookup up using this method should contain a textures property. If the player does not contain a textures property for some odd reason, you should instead use the default regular (Steve) skin. The contents of the `value` variable is Base64-encoded (standard encoding) JSON. You will need to refer to your language's standard or third party libraries to figure out how to decode it. For this example, I will continue using Python as it is simple to read and convert to other languages.
+All player lookups using this method should contain a textures property. If the player does not contain a textures property for some odd reason, you should instead use the default regular (Steve) skin. The contents of the `value` variable is Base64-encoded (standard encoding) JSON. You will need to refer to your language's standard or third party libraries to figure out how to decode it. For this example, I will continue using Python as it is simple to read and convert to other languages.
 
 ### 4. Decoding Texture Value
 
