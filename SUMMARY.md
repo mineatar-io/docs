@@ -14,3 +14,4 @@
 ## Resources
 
 * [🖥 Sample Code](resources/sample-code.md)
+* [🎯 Skin Components](resources/skin-components.md)
