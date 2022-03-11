@@ -2,11 +2,19 @@
 description: Utility routes for getting the UUID of a player by username.
 ---
 
-# UUID
+# 🔭 UUID
 
 {% swagger method="get" path="/uuid/:user" baseUrl="https://api.mineatar.io" summary="Get Player UUID" %}
 {% swagger-description %}
+Please note that you should never check the body content to confirm whether the request was successful. Use the status code returned from the response instead. 
 
+`200`
+
+ means the player was successfully found, and 
+
+`404`
+
+ means the player was not found from Mojang's API.
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="user" required="true" %}
