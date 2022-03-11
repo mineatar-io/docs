@@ -158,7 +158,7 @@ If you encounter an older skin format (which can be checked if the height of the
 
 ## Alpha Fix
 
-In some skins uploaded to Minecraft, the image is contains opaque or translucent colors where there should be transparency (such as the overlay components). In order to fix the transparency issue, you will need to parse the PNG image into some more easily modifying format that allows you to modify pixel data individually. Here are the steps to fixing the transparency issue:
+In some skins uploaded to Minecraft, the image contains opaque pixels where there should be transparency (such as the overlay components). In order to fix the transparency issue, you will need to parse the PNG image into a format that allows you to modify pixel data individually. There should be a built-in or third party library in your language to do this. Here are the steps to fixing the transparency issue:
 
 1. Look at the color and alpha value of the pixel at `(0, 0)` (aka alpha signature)
 2. Loop over all pixels in the image and compare them to the value retrieved from step 1
