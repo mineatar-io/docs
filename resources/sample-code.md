@@ -6,12 +6,15 @@ description: Sample code for how to implement in your website.
 
 ## HTML
 
+{% code title="index.html" %}
 ```html
 <img src="https://api.mineatar.io/body/MHF_Steve?scale=4" alt="Steve's Body" />
 ```
+{% endcode %}
 
 ## React
 
+{% code title="components/PlayerBody.js" %}
 ```jsx
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -31,9 +34,11 @@ PlayerBody.defaultProps = {
     scale: 4
 };
 ```
+{% endcode %}
 
 ## Discord.js Embed
 
+{% code title="commands/body.js" %}
 ```javascript
 const { MessageEmbed } = require('discord.js');
 
@@ -48,3 +53,4 @@ const exampleEmbed = new MessageEmbed()
 
 channel.send({ embeds: [exampleEmbed] });
 ```
+{% endcode %}
