@@ -10,3 +10,7 @@
 * [🧑🦱 Head](api/head.md)
 * [🧍 Body](api/body.md)
 * [🔭 UUID](api/uuid.md)
+
+## Resources
+
+* [🖥 Sample Code](resources/sample-code.md)
