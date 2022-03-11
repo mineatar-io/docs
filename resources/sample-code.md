@@ -13,9 +13,18 @@ description: Sample code for how to implement in your website.
 ## React
 
 ```jsx
-const username = 'MHF_Steve';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-<img src={`https://api.mineatar.io/body/${username}?scale=4`} alt={`${username}'s Body`} />
+export default function PlayerBody({ username }) {
+    return (
+        <img src={`https://api.mineatar.io/body/${username}?scale=4`} alt={`${username}'s Body`} />
+    );
+}
+
+PlayerBody.propTypes = {
+    username: PropTypes.string.isRequired
+};
 ```
 
 ## Discord.js Embed
