@@ -18,4 +18,4 @@ Force the browser to open a save file dialog
 {% endswagger-parameter %}
 {% endswagger %}
 
-![Raw skin result](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
