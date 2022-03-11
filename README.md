@@ -2,7 +2,7 @@
 description: An incredibly fast Minecraft avatar API.
 ---
 
-# mineatar.io
+# 🏠 Home
 
 mineatar.io is an incredibly simple and fast Minecraft skin API. You can render the skin of any Minecraft player as a 2D or 3D image. As long as you know the username or UUID of the player, you can get their raw skin, isometric head, body, etc. Read more about how our service differs from others.
 
