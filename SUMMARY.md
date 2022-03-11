@@ -3,7 +3,7 @@
 * [🏠 Home](README.md)
 * [❓ Frequently Asked Questions](frequently-asked-questions.md)
 
-## 🔗 API
+## API
 
 * [🏔 Raw Skin](api/raw-skin.md)
 * [😁 Face](api/face.md)
