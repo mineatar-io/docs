@@ -9,3 +9,4 @@
 * [Face](api/face.md)
 * [Head](api/head.md)
 * [Body](api/body.md)
+* [UUID](api/uuid.md)

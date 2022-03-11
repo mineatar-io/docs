@@ -28,7 +28,7 @@ Force the browser to download the image
 {% endswagger-parameter %}
 {% endswagger %}
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 {% swagger method="get" path="/body/front/:user" baseUrl="https://api.mineatar.io" summary="Render Front of Body" %}
 {% swagger-description %}
@@ -51,3 +51,77 @@ Enable or disable skin overlay
 Force the browser to download the image
 {% endswagger-parameter %}
 {% endswagger %}
+
+![](../.gitbook/assets/image.png)
+
+{% swagger method="get" path="/body/back/:user" baseUrl="https://api.mineatar.io" summary="Render Back of Body" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="user" required="true" %}
+A username or UUID
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="scale" type="Number" %}
+A scaling value of the image
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="overlay" type="Boolean" %}
+Enable or disable skin overlay
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="download" type="Boolean" %}
+Force the browser to download the image
+{% endswagger-parameter %}
+{% endswagger %}
+
+![](<../.gitbook/assets/image (4).png>)
+
+{% swagger method="get" path="/body/left/:user" baseUrl="https://api.mineatar.io" summary="Render Left Side of Body" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="user" %}
+A username or UUID
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="scale" type="Number" %}
+A scaling value of the image
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="overlay" type="Boolean" %}
+Enable or disable skin overlay
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="download" type="Boolean" %}
+Force the browser to download the image
+{% endswagger-parameter %}
+{% endswagger %}
+
+![](<../.gitbook/assets/image (1).png>)
+
+{% swagger method="get" path="/body/right/:user" baseUrl="https://api.mineatar.io" summary="Render Right Side of Body" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="user" %}
+A username or UUID
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="scale" type="Number" %}
+A scaling value of the image 
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="overlay" type="Boolean" %}
+Enable or disable skin overlay
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="download" type="Boolean" %}
+Force the browser to download the image
+{% endswagger-parameter %}
+{% endswagger %}
+
+![](<../.gitbook/assets/image (3).png>)

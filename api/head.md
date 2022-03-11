@@ -26,4 +26,4 @@ Force the browser to download the image
 {% endswagger-parameter %}
 {% endswagger %}
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
