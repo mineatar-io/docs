@@ -39,5 +39,3 @@ Since our service is entirely open source, you are free to host your own player 
 ## Contact
 
 If you feel that you need to contact us privately, you can shoot an email to [contact@mineatar.io](mailto:contact@mineatar.io). If you have a general question about the service, you should instead open a discussion post on GitHub.
-
-###
