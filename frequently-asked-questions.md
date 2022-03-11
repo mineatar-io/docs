@@ -15,3 +15,7 @@ The entire back-end of the API is built using Go, a highly efficient compiled la
 ### I found an issue, how do I report it?
 
 It depends on the vulnerability of the issue. If it is something that should be fixed with little to no urgency (like a rendering issue or caching issue), then either a [new issue](https://github.com/mineatar-io/api-server/issues/new) should be open on GitHub, or you can [create a pull request](https://github.com/mineatar-io/api-server/compare) to fix it yourself. Please note that pull requests will take some time to get reviewed and merged. If there is a security flaw or something that should be fixed silently regarding the site itself, please shoot an email to [contact@mineatar.io](mailto:contact@mineatar.io) with as much information as you can provide.
+
+### Why did you choose GitBooks for the website?
+
+Originally when the site was released, we used Next.js and self hosted the website. We soon realized that an automated hosting provider like GitBooks would be easiest for the community because it can easily allow people to modify page information by creating pull requests on GitHub. It also cleaned up the site design to allow better navigation and improved SEO.
