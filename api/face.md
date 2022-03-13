@@ -2,7 +2,7 @@
 description: Render the face of a Minecraft player as a 2D image.
 ---
 
-# Face
+# 😁 Face
 
 {% swagger method="get" path="/face/:user" baseUrl="https://api.mineatar.io" summary="Face" %}
 {% swagger-description %}
@@ -26,4 +26,4 @@ Force the browser to download the image
 {% endswagger-parameter %}
 {% endswagger %}
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![MHF\_Steve's Face](https://api.mineatar.io/face/MHF\_Steve?scale=16)

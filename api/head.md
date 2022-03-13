@@ -2,7 +2,7 @@
 description: Render the player's head as an isometric projection.
 ---
 
-# Head
+# 🧑🦱 Head
 
 {% swagger method="get" path="/head/:user" baseUrl="https://api.mineatar.io" summary="Render Head" %}
 {% swagger-description %}
@@ -26,4 +26,4 @@ Force the browser to download the image
 {% endswagger-parameter %}
 {% endswagger %}
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![MHF\_Steve's Head](https://api.mineatar.io/head/MHF\_Steve?scale=8)

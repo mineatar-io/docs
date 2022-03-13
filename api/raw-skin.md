@@ -2,7 +2,7 @@
 description: Retrieve the raw skin image of any Minecraft player.
 ---
 
-# Raw Skin
+# 🏔 Raw Skin
 
 {% swagger method="get" path="/skin/:user" baseUrl="https://api.mineatar.io" summary="Raw Skin" %}
 {% swagger-description %}
@@ -18,4 +18,4 @@ Force the browser to open a save file dialog
 {% endswagger-parameter %}
 {% endswagger %}
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![MHF\_Steve's Skin](https://api.mineatar.io/skin/MHF\_Steve)
