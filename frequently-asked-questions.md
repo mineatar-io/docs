@@ -2,7 +2,7 @@
 description: Questions and answers to frequently asked questions about the service.
 ---
 
-# Frequently Asked Questions
+# ❓ Frequently Asked Questions
 
 ### How does this service work?
 

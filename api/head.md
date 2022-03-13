@@ -24,6 +24,12 @@ Enable or disable skin overlay
 {% swagger-parameter in="query" name="download" type="Boolean" %}
 Force the browser to download the image
 {% endswagger-parameter %}
-{% endswagger %}
 
-![MHF\_Steve's Head](https://api.mineatar.io/head/MHF\_Steve?scale=8)
+{% swagger-response status="200: OK" description="" %}
+
+
+![](<../.gitbook/assets/image (4).png>)
+
+
+{% endswagger-response %}
+{% endswagger %}

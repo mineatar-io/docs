@@ -16,6 +16,12 @@ A username or UUID
 {% swagger-parameter in="query" name="download" type="Boolean" %}
 Force the browser to open a save file dialog
 {% endswagger-parameter %}
-{% endswagger %}
 
-![MHF\_Steve's Skin](https://api.mineatar.io/skin/MHF\_Steve)
+{% swagger-response status="200: OK" description="" %}
+
+
+![](<../.gitbook/assets/image (3).png>)
+
+
+{% endswagger-response %}
+{% endswagger %}
