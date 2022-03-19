@@ -14,7 +14,19 @@ A username or UUID
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="download" type="Boolean" %}
-Force the browser to open a save file dialog
+Force the browser to open a save file dialog (default: 
+
+`false`
+
+)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="fallback" type="Boolean" %}
+Fallback to default skin if unavailable (default: 
+
+`true`
+
+)
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
